@@ -27,7 +27,7 @@ flask-dashboard-api/databases
 # misc
 .DS_Store
 __pycache__
-.env
+/.env
 venv/
 LICENSE
 
@@ -38,4 +38,4 @@ Dockerfile.api
 Dockerfile.client
 Dockerfile.combo
 
-
+Tesssssst it ------------------
