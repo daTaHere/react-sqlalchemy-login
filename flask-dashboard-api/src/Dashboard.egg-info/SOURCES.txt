@@ -1,0 +1,16 @@
+setup.py
+src/Dashboard.egg-info/PKG-INFO
+src/Dashboard.egg-info/SOURCES.txt
+src/Dashboard.egg-info/dependency_links.txt
+src/Dashboard.egg-info/top_level.txt
+src/api/__init__.py
+src/api/api.py
+src/api/config.py
+src/api/models/__init__.py
+src/api/models/system_io.py
+src/api/models/user.py
+src/api/views/__init__.py
+src/api/views/cpu_io_views.py
+src/api/views/login_view.py
+src/api/views/main_view.py
+src/api/views/registration_view.py
