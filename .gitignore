@@ -1,10 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+react-dashview-app/node_modules
 /.pnp
 .pnp.js
-venv
+flask-dashboard-api/venv
 
 # IDE settings
 .vscode/
@@ -13,21 +13,24 @@ venv
 /coverage
 
 # production
-/build
+build/
+
 
 #log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# db
+flask-dashboard-api/databases
+
 # misc
 .DS_Store
 __pycache__
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+venv/
+LICENSE
+
 
 # deployment
 docker-compose.yml
