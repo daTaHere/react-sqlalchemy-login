@@ -31,6 +31,7 @@ function Login(){
             .then(onGetUserByIdSuccess)
             .catch((error)=>{
                 (async () => {
+                    // eslint-disable-next-line
                     const toast = await navigate('/login');
                     Alerts.Toast.fire({
                         icon: 'error',
@@ -42,6 +43,7 @@ function Login(){
                 
             })
         };
+    // eslint-disable-next-line
     },[])
     // render greeting after successful user activaton
     const onGetUserByIdSuccess = (response) => {

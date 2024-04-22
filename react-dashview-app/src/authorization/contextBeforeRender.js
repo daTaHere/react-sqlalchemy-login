@@ -9,7 +9,7 @@ const useBeforeRender = () => React.useContext(BeforeRenderContext);
 
 // AuthorizeProvider component
 const BeforeRenderProvider = ({ children }) => {
-    const { CheckUserStatus, isAuthorized } = ContextAuthorizer();
+    const { CheckUserStatus } = ContextAuthorizer();
         CheckUserStatus();
   return (
     <BeforeRenderContext.Provider value={{}}>

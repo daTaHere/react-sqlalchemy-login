@@ -14,7 +14,7 @@ const BadLink = () => {
                 </h5>
             </div>
             <div className='row d-flex justify-content-center'>
-                <img style={{width:"2500px", marginBottom:"150px"}} className='boarder shadow-dark' src="https://cdn.akamai.steamstatic.com/steam/apps/2397630/capsule_616x353.jpg?t=1701889236://thecoolchristiansclub.files.wordpress.com/2012/10/expired2.jpg" />
+                <img style={{width:"2500px", marginBottom:"150px"}} className='boarder shadow-dark' src="https://cdn.akamai.steamstatic.com/steam/apps/2397630/capsule_616x353.jpg?t=1701889236://thecoolchristiansclub.files.wordpress.com/2012/10/expired2.jpg" alt='Bad Egg page' />
             </div>
         </div >
     )

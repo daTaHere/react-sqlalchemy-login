@@ -18,6 +18,7 @@ function Register(){
     // handle user registration success and aknowledge message
     const onUserCreateSuccess =(response)=>{
         (async ()=>{
+            // eslint-disable-next-line
             const navi = await navigate('/login');
             Alerts.Comfirmation.fire({
                 title: "Account Was Successfully Created",

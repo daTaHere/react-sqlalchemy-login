@@ -21,6 +21,7 @@ function PWReset(){
         tempPWServices.comfirmResetToken(tempPw.token)
         .then(onConfirmTempPWSuccess)
         .catch(onConfirmTempPWError)
+    // eslint-disable-next-line
     },[]);
     const onConfirmTempPWSuccess = (response) => {
         (async ()=>{
@@ -84,6 +85,7 @@ function PWReset(){
     // aknowledge update success
     const onUpdatePwSuccess = (response) => {
         (async ()=>{
+            // eslint-disable-next-line
             const resetComfirmed = await
             Alerts.Comfirmation.fire({
                 title:'Reset Completed Successful!',

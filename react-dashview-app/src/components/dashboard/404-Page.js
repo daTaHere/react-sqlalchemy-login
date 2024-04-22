@@ -13,7 +13,7 @@ const PageNotFound = () => {
                 </h5>
             </div>
             <div className='row d-flex justify-content-center'>
-                <img src="https://miro.medium.com/v2/resize:fit:1200/1*EQisBuMOijQT8woW0Jn6pA.jpeg" />
+                <img src="https://miro.medium.com/v2/resize:fit:1200/1*EQisBuMOijQT8woW0Jn6pA.jpeg" alt='Not Found Page'/>
             </div>
         </div >
     )

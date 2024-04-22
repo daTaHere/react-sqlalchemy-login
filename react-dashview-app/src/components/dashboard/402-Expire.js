@@ -14,7 +14,7 @@ const ExpireLink = () => {
                 </h5>
             </div>
             <div className='row d-flex justify-content-center'>
-                <img style={{width:"2500px", marginBottom:"150px"}} className='boarder shadow-dark' src="https://thecoolchristiansclub.files.wordpress.com/2012/10/expired2.jpg" />
+                <img style={{width:"2500px", marginBottom:"150px"}} className='boarder shadow-dark' src="https://thecoolchristiansclub.files.wordpress.com/2012/10/expired2.jpg" alt='Expired Page'/>
             </div>
         </div >
     )
