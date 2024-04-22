@@ -1,0 +1,1 @@
+FLASK_APP=/home/data/react-dashboard-app/flask-dashboard-api/src/api/api.py

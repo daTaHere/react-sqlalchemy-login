@@ -1,0 +1,26 @@
+/* form styling customer css */
+.login-form-container {
+    background-color: lightgray;
+    min-width: 350px;
+}
+
+.reg-form-container {
+    background-color: lightgray;
+    min-width: 340px;
+}
+
+.form-danger {
+    color: red;
+    font-weight:420;
+}
+
+.form-btn-submit {
+    min-width: 98px;
+    max-width: 110px;
+}
+
+.form-link-reg {
+    justify-content:flex-end;
+    display: flex;
+    margin-top: 10px;
+}
